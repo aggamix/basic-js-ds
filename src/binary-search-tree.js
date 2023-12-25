@@ -8,7 +8,7 @@ const { Node } = require('../extensions/list-tree.js');
 */
 class BinarySearchTree {
 
-  coinstructor() {
+  constructor() {
     this.tree = null;
   }
 

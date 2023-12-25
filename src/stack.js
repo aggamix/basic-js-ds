@@ -23,9 +23,7 @@ class Stack {
   }
 
   pop() {
-    if (this.items.length == 0) {
-      return 'empty';
-    }
+    if (this.items.length == 0) return 'empty';
     return this.items.pop();
   }
 
